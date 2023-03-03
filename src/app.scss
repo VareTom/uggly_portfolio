@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Iso&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Dancing Script';
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column,
+.flex-row {
+  &.center {
+    justify-content: center;
+    align-items: center;
+  }
+  &.end {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+}
